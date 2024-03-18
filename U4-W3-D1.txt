@@ -1,0 +1,11 @@
+Nel primo esercizio ho utilizzato il seguente codice:
+SELECT FROM * public."Clienti" WHERE "Nome" = 'Mario';
+
+Nel secondo esercizio ho utilizzato il seguente codice:
+SELECT * FROM public."Clienti" WHERE "AnnodiNascita" = '1982';
+
+Nel terzo esercizio ho utilizzato il seguente codice:
+SELECT * FROM public."Fatture" WHERE "Iva" = 20;
+
+Nel quarto esercizio ho utilizzato il seguente codice:
+SELECT * FROM public."Prodotti" WHERE "DataAttivazione" = '2017' AND "InProduzione" = 'true' OR "InCommercio" = 'true';
